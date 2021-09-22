@@ -112,8 +112,4 @@ public class testController {
 		return map;
 	}
 
-	@RequestMapping("/")
-	public String test() {
-		return "/mpaUsr/home/test";
-	}
 }
