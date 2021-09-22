@@ -1,0 +1,30 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+
+<script>
+	var html = "";
+	
+	function power(){
+		html+= "<div class=\"power_power_main\"  id=\"power_main_re\">";
+		html+= "<div class=\"power_power_main_item\">";
+		html+= "	<div class=\"power_power_main_item_box\"></div><div class=\"power_power_main_item_box\"></div><div class=\"power_power_main_item_box\"></div><div class=\"power_power_main_item_box\"></div><div class=\"power_power_main_item_box\"></div>";
+		html+= "	<div class=\"power_power_main_item_box\"></div><div class=\"power_power_main_item_box\"></div><div class=\"power_power_main_item_box\"></div><div class=\"power_power_main_item_box\"></div><div class=\"power_power_main_item_box\"></div>";
+		html+= "</div>";
+		html+= "<div class=\"power_power_main_home\">";
+		html+= "	<div class=\"power_power_main_home_myitem\">내 아이템</div>";
+		html+= "	<div class=\"power_power_main_home_result\">강화 결과</div>";
+		html+= "	<div class=\"power_power_main_home_power_button\">강화 버튼</div>";
+		html+= "	<div class=\"power_power_main_home_cancle_button\">취소 버튼</div>";
+		html+= "</div>";
+		html+= "</div>";
+	}
+	
+	function view_power(btn) {
+		power();
+		
+		$('#power_main_re').remove();
+		$('#power_main').append(html);
+		
+		html = "";
+	}
+	
+</script>

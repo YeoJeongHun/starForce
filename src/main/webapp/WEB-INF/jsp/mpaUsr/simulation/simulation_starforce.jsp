@@ -132,17 +132,13 @@
 			</div>
 		</div>
 		<div class="power_main">
-			<div class="power_main_topmenu">
-				<div class="power_main_topmenu_power"><a onclick="view_power(this)">강화</a></div>
-				<div class="power_main_topmenu_starforce"><a onclick="view_starforce(this)">스타포스</a></div>
-				<div class="power_main_topmenu_cube"><a onclick="view_cube(this)">큐브</a></div>
-			</div>
+			<div class="power_main_topmenu_power"><a onclick="view_power(this)">강화</a></div>
+			<div class="power_main_topmenu_starforce"><a onclick="view_starforce(this)">스타포스</a></div>
+			<div class="power_main_topmenu_cube"><a onclick="view_cube(this)">큐브</a></div>
 			<div class="power_main_place">
 				<div id="power_main">
 					<div class="power_starforce_main" id="power_main_re">
-						<div>
 						
-						</div>
 					</div>
 				</div>
 			</div>

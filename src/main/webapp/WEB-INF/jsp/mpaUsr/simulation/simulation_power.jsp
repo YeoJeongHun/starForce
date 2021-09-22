@@ -133,17 +133,24 @@
 		</div>
 		<div class="power_main">
 			<div class="power_main_topmenu">
-				<div class="power_main_topmenu_power"><a onclick="view_power(this)">강화</a></div>
-				<div class="power_main_topmenu_starforce"><a onclick="view_starforce(this)">스타포스</a></div>
-				<div class="power_main_topmenu_cube"><a onclick="view_cube(this)">큐브</a></div>
+				<div class="power_main_topmenu_power">강화</div>
+				<div class="power_main_topmenu_starforce">스타포스</div>
+				<div class="power_main_topmenu_cube">큐브</div>
 			</div>
 			<div class="power_main_place">
-				<div id="power_main">
-					<div class="power_starforce_main" id="power_main_re">
-						<div>
-						
-						</div>
+				<div id="power_power_main">
+				<div class="power_power_main" id="power_power_main_re">
+					<div class="power_power_main_item">
+						<div class="power_power_main_item_box"></div><div class="power_power_main_item_box"></div><div class="power_power_main_item_box"></div><div class="power_power_main_item_box"></div><div class="power_power_main_item_box"></div>
+						<div class="power_power_main_item_box"></div><div class="power_power_main_item_box"></div><div class="power_power_main_item_box"></div><div class="power_power_main_item_box"></div><div class="power_power_main_item_box"></div>
 					</div>
+					<div class="power_power_main_home">
+						<div class="power_power_main_home_myitem">내 아이템</div>
+						<div class="power_power_main_home_result">강화 결과</div>
+						<div class="power_power_main_home_power_button">강화 버튼</div>
+						<div class="power_power_main_home_cancle_button">취소 버튼</div>
+					</div>
+				</div>
 				</div>
 			</div>
 		</div>
